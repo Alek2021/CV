@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+
+    <title>Hoja de vida</title>
+</head>
+<body>
+     <!--Menu lateral-->
+    <div class="menuLateral">
+        <form action="" id="containerBotones">
+            <button type="button" onclick="home()">Home</button>
+            <button type="button" onclick="educacion()">Educación & Experiencia</button>
+            <button type="button" onclick="competencias()">Competencias</button>
+            <button type="button" onclick="portafolio()">Portafolío</button>
+            <button type="button" onclick="contacto()">Contacto</button> 
+        </form>
+    </div>
+    <!--Home-->
+<div class="contenedorGeneral">
+    <div class="contenedorHome">
+        <section class="name">
+            <h1>CURRICULUM</h1>
+            <div class="myName">Katerin Alejandra</div>
+            <div class="myName">Galindo Ruiz</div>
+            <p class="line">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Dolorem ipsa modi iste consequatur amet libero sequi nobis possimus totam aperiam? Veritatis.</p>
+        </section>
+        <section class="photo">
+            <div class="fotito"></div>
+        </section>
+    </div>
+    <!--Educacion-->
+    <div class="contenedorEducacion">
+        <section class="educacion">
+            <h1 class="edu">EDUCACIÓN</h1>
+            <p class="subtitulos">Técnico Laboral</p>
+            <p>Instituto Kuepa Edutech</p>
+            <p>Tecnico Laboral en Desarrollo Front end</p>
+            <p>2021</p>
+            <p class="subtitulos">Técnico</p>
+            <p>SENA</p>
+            <p>Tecnico en Pre-prensa digital para medios impresos</p>
+            <p>2018-2019</p>
+            <p class="subtitulos">Educación Secundaria</p>
+            <p>Colegio Juan Francisco Berbeo (I.E.D)</p>
+            <p>2019</p>
+        </section>
+        <section class="experiencia">
+            <h1 class="edu">EXPERIENCIA</h1>
+            <p class="subtitulos">Proyecto productivo Sena</p>
+            <p>2019</p>
+            <p class="subtitulos">Administracion San Jeronimo</p>
+            <p>2020</p>
+        </section>
+    </div>
+    <!--Competencias--> 
+    <div class="contenedorCompetencias">
+        <div class="comp">
+            <h1>COMPETENCIAS</h1>
+        </div>
+    <section>   
+        <section class="competencias">
+            <div class="lenguajes">
+                <p class="subtitulos">Lenguajes</p>
+                <p>Español</p>
+                <progress id="file" max="100" value="100">100%</progress>
+                <p>Ingles</p>
+                <progress id="file" max="100" value="30">30%</progress>
+                <p>Italiano</p>
+                <progress id="file" max="100" value="10">10%</progress>
+            </div>
+        </section>
+        <section class="skills">
+            <div class="skill">
+                <p class="subtitulos">Habilidades</p>
+                <p>HTML</p>
+                <progress id="file" max="100" value="60">60%</progress>
+                <p>CSS</p>
+                <progress id="file" max="100" value="60">60%</progress>
+                <p>Java Script</p>
+                <progress id="file" max="100" value="20">20%</progress>
+            </div>
+        </section>    
+        <section class="extraextra">   
+            <div class="extras">
+                <p class="subtitulos">Extras</p>     
+                <p>Illustrator</p>
+                <p class="star">★★★★</p> 
+                <p>Photoshop </p>
+                <p class="star" >★★★</p>       
+                <p>LeoCAD </p>
+                <p class="star">★★</p>
+            </div>                
+        </section>
+    </section>
+    </div>
+    <!--Portafolio-->    
+    <div class="contenedorPortafolio">
+        <section class="portafolio">
+            <h1>PORTAFOLIO</h1>
+            <div>
+                <a href="https://github.com/Alek2021"><img src="./utils/img/CODE.jpg" alt="cargando"></a>
+            </div>
+            <div>
+                <p class="subtitulos">
+                    GITHUB
+                </p>
+                <p>
+                    Aquí encontraras todos los trabajos que he realizado durante mi tiempo de front-end 
+
+                </p>
+            </div>
+        </section>
+    </div>
+    <!--Contact-->    
+    <div class="contenedorContacto">
+        <section>
+            <h1>CONTACTO</h1>
+            <div>
+                <p></p>
+                <div>
+                    <a href="https://www.facebook.com/alejandra.galindo.39545464"><span class="iconify" data-icon="entypo-social:facebook" data-inline="false"></span></a>
+                    <a href="https://twitter.com/Alek_2191"><span class="iconify" data-icon="fa-brands:twitter-square" data-inline="false"></span></a>
+                    <a href="https://www.linkedin.com/in/katerin-galindo-833962203/"><span class="iconify" data-icon="simple-icons:linkedin" data-inline="false"></span> </a>
+                    <a href="https://www.instagram.com/alek_2191/"><span class="iconify" data-icon="fa-brands:instagram-square" data-inline="false"></span></a>
+                    <a href="https://github.com/Alek2021"><span class="iconify" data-icon="fa-brands:github-square" data-inline="false"></span></a>
+                </div>
+                <p> </p>
+                <div>
+
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+<script src="./js/index.js"></script>
+<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+</body>
+</html>

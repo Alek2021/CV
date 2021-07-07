@@ -1,0 +1,181 @@
+html, body{
+    margin: 0px;
+    width: 100%;
+    background-color: #1D1725;
+    text-align: center;
+    color: white
+}
+/*Fonts*/
+@font-face {
+    font-family: 'Ropa Sans';
+    src: url(../utils/fonts/RopaSans-Regular.woff);
+}
+@font-face {
+    font-family: 'Viga';
+    src: url(../utils/fonts/Viga-Regular.woff);
+}
+/*GENERAL*/
+h1{
+    color: #82BFDB;
+    font-size: 50px;
+    font-family: 'Ropa Sans';
+    letter-spacing: 25px;
+    border-bottom: solid 3px lightgrey;
+    padding-bottom: 20px;
+}
+p{
+    font-family: 'Ropa Sans';
+    font-size: 30px;
+}
+.line{
+    border-top: solid 3px lightgrey;
+    padding-top: 20px;
+}
+/*Menu*/
+.menuLateral{
+	display: flex;
+	width: 15%;
+	height: 100vh;
+	position: fixed;
+	align-items: center;
+	border: 2px solid white;
+}
+/*estilos del boton*/
+button{
+ 	width: 180px;
+ 	height: 90px;
+ 	margin: 10px;
+	border-radius: 90px;
+	border: 2px solid #82BFDB;
+	font-size: 15px;
+    color: #ffffff;
+    background-color: black;	
+}
+button:hover{
+	color: #1883ba;
+    background-color: #82BFDB;
+}
+#containerBotones{
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	height: max-content;
+	align-items: center;	
+}
+/*Contenedor del Home*/
+.contenedorHome{
+    display: flex;
+    width: 100%;
+    min-height:100vh
+}
+.name{ 
+    display: flex;
+    justify-content: left;
+    text-justify: initial;
+    flex-direction: column;
+    border: 1px solid white;
+    width: 45%;
+    padding: 150px;
+    justify-content: center;
+    text-align: left;
+}
+.myName{
+    font-size: 50px;
+    font-family: 'Viga';
+}
+.photo{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    width: 40%;
+    justify-content: center;
+}
+.fotito{
+    width: 500px;
+    height: 500px;
+    background-color: darkcyan;
+    border-radius: 50%;
+}
+/*Contenedor general*/
+.contenedorGeneral{
+   display: flex;
+   flex-direction: column;
+   width: 85%;
+   height: 98vh;
+   position: relative;
+   left: 15%;
+
+}
+
+/*Contenedores*/
+.contenedorHome, .contenedorEducacion, .contenedorCompetencias, .contenedorPortafolio, .contenedorContacto{
+   display: none;
+   width: 100%;
+   min-height:100vh;
+}
+/*estilos de subtitilos*/
+.subtitulos{
+    color: #96E0FF;
+    font-size: 40px;
+    font-family: 'Ropa Sans';  
+}
+/*educaion & experiencia*/
+.contenedorEducacion {
+    justify-content: center;
+    text-align: left;
+}
+.educacion {
+    margin: 100px;
+}
+.experiencia {
+    margin: 100px;
+}
+/*lenguajesbackground-color: #C0C2CC; */
+progress[value] {
+    width: 400px;
+    height: 40px;
+ /* Reinicializar estilos */
+    appearance: none;
+    -webkit-appearance: none;
+}
+progress[value]::-webkit-progress-bar {
+    background-color:#C0C2CC ;
+    border-radius: 5px;
+  }
+progress[value]::-webkit-progress-value {
+    background-color: #96E0FF;
+    border-radius: 5px;
+  }
+/**/
+.contenedorCompetencias{
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+.comp{
+    border: solid 1px white;
+    margin-bottom: 800px;
+}
+
+
+.star{
+    font-size: 40px;
+    letter-spacing: 5px;
+    color: #96E0FF;
+    line-height: 5px;
+}
+/**/
+.contenedorPortafolio{
+    justify-content: center;
+    align-items: center;
+}
+.contenedorContacto{
+    justify-content: center;
+    align-items: center;
+}
+
+.iconify {
+    width: 150px;
+    height: 150px; 
+    color: #96E0FF;
+}
